@@ -1365,22 +1365,15 @@
   },
   {
     "name": "Medivh's Merlot",
-    "yield": 1,
+    "yield": 0,
     "ingredients": [
-      {
-        "name": "Medivh's Merlot",
-        "amount": 1.0
-      }
     ]
   },
   {
     "name": "Medivh's Merlot Blue",
-    "yield": 1,
+    "yield": 0,
     "ingredients": [
-      {
-        "name": "Medivh's Merlot Blue",
-        "amount": 1.0
-      }
+      
     ]
   },
   {
