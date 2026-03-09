@@ -1088,16 +1088,6 @@
     ]
   },
   {
-    "name": "Winterfall Firewater",
-    "yield": 1,
-    "ingredients": [
-      {
-        "name": "Winterfall Firewater",
-        "amount": 1.0
-      }
-    ]
-  },
-  {
     "name": "Cerebral Cortex Compound",
     "yield": 1,
     "ingredients": [
@@ -1425,26 +1415,6 @@
       },
       {
         "name": "Imbued Vial",
-        "amount": 1.0
-      }
-    ]
-  },
-  {
-    "name": "Frozen Rune",
-    "yield": 1,
-    "ingredients": [
-      {
-        "name": "Frozen Rune",
-        "amount": 1.0
-      }
-    ]
-  },
-  {
-    "name": "Hardened Mushroom",
-    "yield": 1,
-    "ingredients": [
-      {
-        "name": "Hardened Mushroom",
         "amount": 1.0
       }
     ]
