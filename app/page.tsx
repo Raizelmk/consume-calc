@@ -3,9 +3,38 @@
 import { useMemo } from 'react';
 import recipes from '@/data/recipes.json';
 import prices from '@/data/prices.json';
-import { calculateTotals } from '@/lib/calcLogic';
+import { getDetailedBreakdown } from '@/lib/calcLogic';
 import { useLocalStorage } from '@/lib/useLocalStorage';
 import Currency from '@/components/Currency';
+import IntermediateTree from '@/components/IntermediateTree';
+
+interface Goal {
+  name: string;
+  quantity: number;
+}
+
+interface Ingredient {
+  name: string;
+  amount: number;
+}
+
+interface Intermediate {
+  name: string;
+  quantity: number;
+  ingredients: Ingredient[];
+  totalCopper: number;
+}
+
+interface RawMaterial {
+  quantity: number;
+  unitPrice: number;
+  totalCopper: number;
+}
+
+interface Breakdown {
+  intermediates: Intermediate[];
+  rawMaterials: Record<string, RawMaterial>;
+}
 
 export default function CraftingDashboard() {
   // 1. State: The list of items the user wants to craft (persisted in localStorage)
@@ -14,16 +43,11 @@ export default function CraftingDashboard() {
   ]);
 
   // 2. Logic: Recalculate everything whenever 'goals' change
-  const shoppingList = useMemo(() => {
-    return calculateTotals(goals, recipes, prices);
+  const breakdown: Breakdown = useMemo(() => {
+    return getDetailedBreakdown(goals, recipes, prices) as Breakdown;
   }, [goals]);
 
   // 3. Actions: Add, Remove, or Update quantities
-  interface Goal {
-    name: string;
-    quantity: number;
-  }
-
   const updateQuantity = (index: number, newQty: number | string) => {
     const newGoals: Goal[] = [...goals];
     newGoals[index].quantity = Math.max(1, parseInt(newQty as string) || 0);
@@ -80,24 +104,53 @@ export default function CraftingDashboard() {
 
         {/* RIGHT COLUMN: OUTPUT (THE SHOPPING LIST) */}
         <section className="bg-slate-800/50 p-6 rounded-xl">
-          <h2 className="text-xl mb-4 font-semibold text-green-400">Total Materials Needed</h2>
+          <h2 className="text-xl mb-4 font-semibold text-rose-400">Total Materials Needed</h2>
           
-          <div className="space-y-2">
-            {Object.entries(shoppingList).map(([name, data]) => (
-              <div key={name} className="flex justify-between border-b border-slate-700/50 py-2">
-                <div>
-                  <span className="text-slate-400 text-sm mr-2">{data.quantity}x</span>
-                  <span>{name}</span>
+          <div className="space-y-4">
+            {/* INTERMEDIATES SECTION */}
+            {breakdown.intermediates.length > 0 && (
+              <div>
+                <h3 className="text-sm font-semibold text-yellow-500 mb-3 uppercase tracking-wide">Craft These First</h3>
+                <div className="space-y-2">
+                  {breakdown.intermediates.map((intermediate) => (
+                    <IntermediateTree key={intermediate.name} intermediate={intermediate} />
+                  ))}
                 </div>
-                <Currency copper={data.totalCopper} />
               </div>
-            ))}
+            )}
+
+            {/* DIVIDER */}
+            {breakdown.intermediates.length > 0 && Object.keys(breakdown.rawMaterials).length > 0 && (
+              <div className="border-t border-slate-600 my-4"></div>
+            )}
+
+            {/* RAW MATERIALS SECTION */}
+            {Object.keys(breakdown.rawMaterials).length > 0 && (
+              <div>
+                <h3 className="text-sm font-semibold text-slate-400 mb-3 uppercase tracking-wide">Gather Raw Materials</h3>
+                <div className="space-y-2">
+                  {Object.entries(breakdown.rawMaterials).map(([name, data]) => (
+                    <div key={name} className="flex justify-between border-b border-slate-700/50 py-2">
+                      <div>
+                        <span className="text-slate-400 text-sm mr-2">{data.quantity % 1 === 0 ? data.quantity : data.quantity.toFixed(2)}x</span>
+                        <span>{name}</span>
+                      </div>
+                      <Currency copper={data.totalCopper} />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
 
+          {/* TOTAL COST */}
           <div className="mt-8 pt-4 border-t-2 border-slate-600 flex justify-between items-center">
             <span className="text-lg font-bold">Total Cost:</span>
             <div className="text-xl">
-              <Currency copper={Object.values(shoppingList).reduce((sum, i) => sum + i.totalCopper, 0)} />
+              <Currency copper={
+                breakdown.intermediates.reduce((sum, i) => sum + i.totalCopper, 0) +
+                Object.values(breakdown.rawMaterials).reduce((sum, i) => sum + i.totalCopper, 0)
+              } />
             </div>
           </div>
         </section>
