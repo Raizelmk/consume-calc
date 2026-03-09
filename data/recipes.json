@@ -1,0 +1,1534 @@
+[
+  {
+    "name": "Flask of Distilled Wisdom",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Sungrass",
+        "amount": 30.0
+      },
+      {
+        "name": "Icecap",
+        "amount": 10.0
+      },
+      {
+        "name": "Black Lotus",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Flask of Petrification",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Stonescale Oil",
+        "amount": 30.0
+      },
+      {
+        "name": "Mountain Silversage",
+        "amount": 10.0
+      },
+      {
+        "name": "Black Lotus",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Flask of Supreme Power",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Dreamfoil",
+        "amount": 30.0
+      },
+      {
+        "name": "Mountain Silversage",
+        "amount": 10.0
+      },
+      {
+        "name": "Black Lotus",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Flask of the Titans",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Golden Sansam",
+        "amount": 30.0
+      },
+      {
+        "name": "Stonescale Oil",
+        "amount": 10.0
+      },
+      {
+        "name": "Black Lotus",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Stonescale Oil",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Stonescale Eel",
+        "amount": 1
+      },
+      {
+        "name": "Leaded Vial",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Major Mana Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Dreamfoil",
+        "amount": 2.0
+      },
+      {
+        "name": "Icecap",
+        "amount": 2.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Greater Arcane Protection Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Dreamfoil",
+        "amount": 1.0
+      },
+      {
+        "name": "Dream Dust",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Greater Fire Protection Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Firebloom",
+        "amount": 1.0
+      },
+      {
+        "name": "Elemental Fire",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Greater Frost Protection Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Icecap",
+        "amount": 1.0
+      },
+      {
+        "name": "Elemental Water",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Greater Holy Protection Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Golden Sansam",
+        "amount": 1.0
+      },
+      {
+        "name": "Elemental Air",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Greater Nature Protection Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Dreamfoil",
+        "amount": 1.0
+      },
+      {
+        "name": "Elemental Earth",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Greater Shadow Protection Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Arthas' Tears",
+        "amount": 2.0
+      },
+      {
+        "name": "Shadow Oil",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Shadow Oil",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Fadeleaf",
+        "amount": 4.0
+      },
+      {
+        "name": "Grave Moss",
+        "amount": 2.0
+      },
+      {
+        "name": "Leaded Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Frost Oil",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Khadgar's Whisker",
+        "amount": 4.0
+      },
+      {
+        "name": "Wintersbite",
+        "amount": 2.0
+      },
+      {
+        "name": "Leaded Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Major Troll's Blood Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Gromsblood",
+        "amount": 1.0
+      },
+      {
+        "name": "Plaguebloom",
+        "amount": 2.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Greater Arcane Elixir",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Dreamfoil",
+        "amount": 3.0
+      },
+      {
+        "name": "Mountain Silversage",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Living Action Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Icecap",
+        "amount": 2.0
+      },
+      {
+        "name": "Mountain Silversage",
+        "amount": 2.0
+      },
+      {
+        "name": "Heart of the Wild",
+        "amount": 2.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Purification Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Icecap",
+        "amount": 2.0
+      },
+      {
+        "name": "Plaguebloom",
+        "amount": 2.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Dreamshard Elixir",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Dream Dust",
+        "amount": 1.0
+      },
+      {
+        "name": "Small Dream Shard",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Elixir of the Mongoose",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Mountain Silversage",
+        "amount": 2.0
+      },
+      {
+        "name": "Plaguebloom",
+        "amount": 2.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Greater Stoneshield Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Stonescale Oil",
+        "amount": 3.0
+      },
+      {
+        "name": "Thorium ore",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Lucidity Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Murloc Eye",
+        "amount": 1.0
+      },
+      {
+        "name": "Dreamfoil",
+        "amount": 1.0
+      },
+      {
+        "name": "Purple Lotus",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Major Healing Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Golden Sansam",
+        "amount": 2.0
+      },
+      {
+        "name": "Mountain Silversage",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Mageblood Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Dreamfoil",
+        "amount": 1.0
+      },
+      {
+        "name": "Plaguebloom",
+        "amount": 2.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Elixir of Superior Defense",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Stonescale Oil",
+        "amount": 2.0
+      },
+      {
+        "name": "Sungrass",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Mighty Rage Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Gromsblood",
+        "amount": 3.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Elixir of Greater Firepower",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Fire Oil",
+        "amount": 3.0
+      },
+      {
+        "name": "Firebloom",
+        "amount": 3.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Fire Oil",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Firefin Snapper",
+        "amount": 2.0
+      },
+      {
+        "name": "Empty Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Elixir of Shadow Power",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Ghost Mushroom",
+        "amount": 3.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Limited Invulnerability",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Blindweed",
+        "amount": 2.0
+      },
+      {
+        "name": "Ghost Mushroom",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Elixir of Poison Resistance",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Large Venom Sac",
+        "amount": 1.0
+      },
+      {
+        "name": "Bruiseweed",
+        "amount": 1.0
+      },
+      {
+        "name": "Leaded Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Elixir of Giants",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Sungrass",
+        "amount": 1.0
+      },
+      {
+        "name": "Gromsblood",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Elixir of Greater Agility",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Sungrass",
+        "amount": 1.0
+      },
+      {
+        "name": "Goldthorn",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Gift of Arthas",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Arthas' Tears",
+        "amount": 1.0
+      },
+      {
+        "name": "Blindweed",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Invisibility Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Ghost Mushroom",
+        "amount": 1.0
+      },
+      {
+        "name": "Sungrass",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Lesser Invisibility Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Fadeleaf",
+        "amount": 1.0
+      },
+      {
+        "name": "Wild Steelbloom",
+        "amount": 1.0
+      },
+      {
+        "name": "Leaded Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Magic Resistance Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Khadgar's Whisker",
+        "amount": 1.0
+      },
+      {
+        "name": "Purple Lotus",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Restorative Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Elemental Earth",
+        "amount": 1.0
+      },
+      {
+        "name": "Goldthorn",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Oil of Immolation",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Firebloom",
+        "amount": 1.0
+      },
+      {
+        "name": "Goldthorn",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Nature Protection Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Liferoot",
+        "amount": 1.0
+      },
+      {
+        "name": "Stranglekelp",
+        "amount": 1.0
+      },
+      {
+        "name": "Leaded Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Mighty Troll's Blood Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Liferoot",
+        "amount": 1.0
+      },
+      {
+        "name": "Bruiseweed",
+        "amount": 1.0
+      },
+      {
+        "name": "Leaded Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Elixir of Fortitude",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Wild Steelbloom",
+        "amount": 1.0
+      },
+      {
+        "name": "Goldthorn",
+        "amount": 1.0
+      },
+      {
+        "name": "Leaded Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Free Action Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Blackmouth Oil",
+        "amount": 2.0
+      },
+      {
+        "name": "Stranglekelp",
+        "amount": 1.0
+      },
+      {
+        "name": "Leaded Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Blackmouth Oil",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Oily Blackmouth",
+        "amount": 2.0
+      },
+      {
+        "name": "Empty Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Swim Speed Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Swiftthistle",
+        "amount": 1.0
+      },
+      {
+        "name": "Blackmouth Oil",
+        "amount": 1.0
+      },
+      {
+        "name": "Empty Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Swiftness Potion",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Swiftthistle",
+        "amount": 1.0
+      },
+      {
+        "name": "Briarthorn",
+        "amount": 1.0
+      },
+      {
+        "name": "Empty Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Potion of Quickness",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Gromsblood",
+        "amount": 1.0
+      },
+      {
+        "name": "Mountain Silversage",
+        "amount": 2.0
+      },
+      {
+        "name": "Swiftness Potion",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Elixir of Demonslaying",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Ghost Mushroom",
+        "amount": 1.0
+      },
+      {
+        "name": "Gromsblood",
+        "amount": 1.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Nightfin Soup",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Raw Nightfin Snapper",
+        "amount": 1.0
+      },
+      {
+        "name": "Refreshing Spring Water",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Dragonbreath Chili",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Mystery Meat",
+        "amount": 1.0
+      },
+      {
+        "name": "Small Flame Sac",
+        "amount": 1.0
+      },
+      {
+        "name": "Hot Spices",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Danonzo's Tel'Abim Delight",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Gargantuan Tel'Abim Banana",
+        "amount": 1.0
+      },
+      {
+        "name": "Soothing Spices",
+        "amount": 1.0
+      },
+      {
+        "name": "Icecap",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Danonzo's Tel'Abim Medley",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Gargantuan Tel'Abim Banana",
+        "amount": 1.0
+      },
+      {
+        "name": "Soothing Spices",
+        "amount": 1.0
+      },
+      {
+        "name": "Golden Sansam",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Danonzo's Tel'Abim Suprise",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Gargantuan Tel'Abim Banana",
+        "amount": 1.0
+      },
+      {
+        "name": "Soothing Spices",
+        "amount": 1.0
+      },
+      {
+        "name": "Heart of the Wild",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Dense Dynamite",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Dense Blasting Powder",
+        "amount": 1.0
+      },
+      {
+        "name": "Runecloth",
+        "amount": 1.5
+      }
+    ]
+  },
+  {
+    "name": "Dense Blasting Powder",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Dense Stone",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Goblin Sapper Charge",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Mageweave Cloth",
+        "amount": 1.0
+      },
+      {
+        "name": "Solid Blasting Powder",
+        "amount": 3.0
+      },
+      {
+        "name": "Unstable Trigger",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Unstable Trigger",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Mithril Bar",
+        "amount": 1.0
+      },
+      {
+        "name": "Mageweave Cloth",
+        "amount": 1.0
+      },
+      {
+        "name": "Solid Blasting Powder",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Solid Blasting Powder",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Solid Stone",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Portable Wormhole Generator",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Moss Agate",
+        "amount": 1.0
+      },
+      {
+        "name": "Whirring Bronze Gizmo",
+        "amount": 2.0
+      },
+      {
+        "name": "Bronze Bar",
+        "amount": 2.0
+      },
+      {
+        "name": "Lesser Astral Essence",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Whirring Bronze Gizmo",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Bronze Bar",
+        "amount": 2.0
+      },
+      {
+        "name": "Wool Cloth",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Elemental Sharpening Stone",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Elemental Earth",
+        "amount": 2.0
+      },
+      {
+        "name": "Dense Stone",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Dreamtonic",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Small Dream Shard",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Winterfall Firewater",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Winterfall Firewater",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Cerebral Cortex Compound",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Basilisk Brain",
+        "amount": 4.0
+      },
+      {
+        "name": "Vulture Gizzard",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "R.O.I.D.S",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Snickerfang Jowl",
+        "amount": 3.0
+      },
+      {
+        "name": "Blasted Boar Lung",
+        "amount": 2.0
+      },
+      {
+        "name": "Scorpok Pincer",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Ground Scorpok Assay",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Scorpok Pincer",
+        "amount": 3.0
+      },
+      {
+        "name": "Vulture Gizzard",
+        "amount": 2.0
+      },
+      {
+        "name": "Blasted Boar Lung",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Gizzard Gum",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Vulture Gizzard",
+        "amount": 4.0
+      },
+      {
+        "name": "Snickerfang Jowl",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Lung Juice Cocktail",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Blasted Boar Lung",
+        "amount": 3.0
+      },
+      {
+        "name": "Scorpok Pincer",
+        "amount": 2.0
+      },
+      {
+        "name": "Basilisk Brain",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Le Fishe Au Chocolat",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Raw Whitescale Salmon",
+        "amount": 1.0
+      },
+      {
+        "name": "Soothing Spices",
+        "amount": 1.0
+      },
+      {
+        "name": "Premium Chocolate",
+        "amount": 1.0
+      },
+      {
+        "name": "Golden Sansam",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Corrosive Poison II",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Dust of Deterioration",
+        "amount": 3.0
+      },
+      {
+        "name": "Deathweed",
+        "amount": 3.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Deadly Poison V",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Deathweed",
+        "amount": 7.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Instant Poison VI",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Dust of Deterioration",
+        "amount": 4.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Agitating Poison",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Maiden's Anguish",
+        "amount": 2.0
+      },
+      {
+        "name": "Leaded Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Crippling Poison II",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Essence of Agony",
+        "amount": 3.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Mind-numbing Poison III",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Dust of Deterioration",
+        "amount": 2.0
+      },
+      {
+        "name": "Essence of Agony",
+        "amount": 2.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Nordanaar Herbal Tea",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Small Dream Shard",
+        "amount": 0.2
+      }
+    ]
+  },
+  {
+    "name": "Juju Chill",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Chillwind E'ko",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Juju Ember",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Shardtooth E'ko",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Juju Flurry",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Frostsaber E'ko",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Juju Escape",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Ice Thistle E'ko",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Juju Guile",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Wildkin E'ko",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Juju Might",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Frostmaul E'ko",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Juju Power",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Winterfall E'ko",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Medivh's Merlot",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Medivh's Merlot",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Medivh's Merlot Blue",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Medivh's Merlot Blue",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Brilliant Wizard Oil",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Large Brilliant Shard",
+        "amount": 2.0
+      },
+      {
+        "name": "Firebloom",
+        "amount": 3.0
+      },
+      {
+        "name": "Imbued Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Brilliant Mana Oil",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Large Brilliant Shard",
+        "amount": 2.0
+      },
+      {
+        "name": "Purple Lotus",
+        "amount": 3.0
+      },
+      {
+        "name": "Imbued Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Frozen Rune",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Frozen Rune",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Hardened Mushroom",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Hardened Mushroom",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Elixir of Greater Frost Power",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Icecap",
+        "amount": 3.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Elixir of Greater Arcane Power",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Purple Lotus",
+        "amount": 3.0
+      },
+      {
+        "name": "Crystal Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Concoction of the Dreamwater",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Winterfall Firewater",
+        "amount": 1.0
+      },
+      {
+        "name": "Dreamtonic",
+        "amount": 1.0
+      },
+      {
+        "name": "Imbued Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Concoction of the Arcane Giant",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Elixir of Giants",
+        "amount": 1.0
+      },
+      {
+        "name": "Greater Arcane Elixir",
+        "amount": 1.0
+      },
+      {
+        "name": "Imbued Vial",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Concoction of the Emerald Mongoose",
+    "yield": 1,
+    "ingredients": [
+      {
+        "name": "Elixir of the Mongoose",
+        "amount": 1.0
+      },
+      {
+        "name": "Dreamshard Elixir",
+        "amount": 1.0
+      },
+      {
+        "name": "Imbued Vial",
+        "amount": 1.0
+      }
+    ]
+  }
+]
