@@ -1,6 +1,6 @@
 "use client"; // Required in Next.js for interactive components
 
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import recipes from '@/data/recipes.json';
 import prices from '@/data/prices.json';
 import { getDetailedBreakdown } from '@/lib/calcLogic';
@@ -42,12 +42,37 @@ export default function CraftingDashboard() {
     { name: "Flask of Supreme Power", quantity: 0 }
   ]);
 
+  // Sort mode state
+  const [sortMode, setSortMode] = useState<'number' | 'name' | 'cost'>('name');
+
   // 2. Logic: Recalculate everything whenever 'goals' change
   const breakdown: Breakdown = useMemo(() => {
     return getDetailedBreakdown(goals, recipes, prices) as Breakdown;
   }, [goals]);
 
-  // 3. Actions: Add, Remove, or Update quantities
+  // 3. Sort function for materials
+  const getSortedItems = () => {
+    const sortedIntermediates = [...breakdown.intermediates];
+    const sortedRawEntries = Object.entries(breakdown.rawMaterials);
+
+    // Sort by selected criteria
+    if (sortMode === 'number') {
+      sortedIntermediates.sort((a, b) => b.quantity - a.quantity);
+      sortedRawEntries.sort((a, b) => b[1].quantity - a[1].quantity);
+    } else if (sortMode === 'name') {
+      sortedIntermediates.sort((a, b) => a.name.localeCompare(b.name));
+      sortedRawEntries.sort((a, b) => a[0].localeCompare(b[0]));
+    } else if (sortMode === 'cost') {
+      sortedIntermediates.sort((a, b) => b.totalCopper - a.totalCopper);
+      sortedRawEntries.sort((a, b) => b[1].totalCopper - a[1].totalCopper);
+    }
+
+    return { sortedIntermediates, sortedRawEntries };
+  };
+
+  const { sortedIntermediates, sortedRawEntries } = getSortedItems();
+
+  // 4. Actions: Add, Remove, or Update quantities
   const updateQuantity = (index: number, newQty: number | string) => {
     const newGoals: Goal[] = [...goals];
     newGoals[index].quantity = Math.max(1, parseInt(newQty as string) || 0);
@@ -104,15 +129,26 @@ export default function CraftingDashboard() {
 
         {/* RIGHT COLUMN: OUTPUT (THE SHOPPING LIST) */}
         <section className="bg-slate-800/50 p-6 rounded-xl">
-          <h2 className="text-xl mb-4 font-semibold text-rose-400">Total Materials Needed</h2>
+          <div className="flex justify-between items-center mb-4">
+            <h2 className="text-xl font-semibold text-rose-400">Total Materials Needed</h2>
+            <select 
+              value={sortMode}
+              onChange={(e) => setSortMode(e.target.value as 'number' | 'name' | 'cost')}
+              className="bg-slate-800 border border-yellow-600/50 text-yellow-500 px-3 py-1 rounded text-sm hover:border-yellow-600 cursor-pointer"
+            >
+              <option value="name">Sort: Name</option>
+              <option value="number">Sort: Quantity</option>
+              <option value="cost">Sort: Cost</option>
+            </select>
+          </div>
           
           <div className="space-y-4">
             {/* INTERMEDIATES SECTION */}
-            {breakdown.intermediates.length > 0 && (
+            {sortedIntermediates.length > 0 && (
               <div>
                 <h3 className="text-sm font-semibold text-yellow-500 mb-3 uppercase tracking-wide">Craft These First</h3>
                 <div className="space-y-2">
-                  {breakdown.intermediates.map((intermediate) => (
+                  {sortedIntermediates.map((intermediate) => (
                     <IntermediateTree key={intermediate.name} intermediate={intermediate} />
                   ))}
                 </div>
@@ -120,16 +156,16 @@ export default function CraftingDashboard() {
             )}
 
             {/* DIVIDER */}
-            {breakdown.intermediates.length > 0 && Object.keys(breakdown.rawMaterials).length > 0 && (
+            {sortedIntermediates.length > 0 && sortedRawEntries.length > 0 && (
               <div className="border-t border-slate-600 my-4"></div>
             )}
 
             {/* RAW MATERIALS SECTION */}
-            {Object.keys(breakdown.rawMaterials).length > 0 && (
+            {sortedRawEntries.length > 0 && (
               <div>
                 <h3 className="text-sm font-semibold text-slate-400 mb-3 uppercase tracking-wide">Gather Raw Materials</h3>
                 <div className="space-y-2">
-                  {Object.entries(breakdown.rawMaterials).map(([name, data]) => (
+                  {sortedRawEntries.map(([name, data]) => (
                     <div key={name} className="flex justify-between border-b border-slate-700/50 py-2">
                       <div>
                         <span className="text-slate-400 text-sm mr-2">{data.quantity % 1 === 0 ? data.quantity : data.quantity.toFixed(2)}x</span>
@@ -148,8 +184,8 @@ export default function CraftingDashboard() {
             <span className="text-lg font-bold">Total Cost:</span>
             <div className="text-xl">
               <Currency copper={
-                breakdown.intermediates.reduce((sum, i) => sum + i.totalCopper, 0) +
-                Object.values(breakdown.rawMaterials).reduce((sum, i) => sum + i.totalCopper, 0)
+                sortedIntermediates.reduce((sum, i) => sum + i.totalCopper, 0) +
+                sortedRawEntries.reduce((sum, [_, data]) => sum + data.totalCopper, 0)
               } />
             </div>
           </div>
