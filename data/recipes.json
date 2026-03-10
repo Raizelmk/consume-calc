@@ -1377,6 +1377,27 @@
     ]
   },
   {
+    "name": "Hardened Mushroom",
+    "yield": 0,
+    "ingredients": [
+      
+    ]
+  },
+  {
+    "name": "Frozen Rune",
+    "yield": 0,
+    "ingredients": [
+      
+    ]
+  },
+  {
+    "name": "Winterfall Firewater",
+    "yield": 1,
+    "ingredients": [
+
+    ]
+  },
+  {
     "name": "Brilliant Wizard Oil",
     "yield": 1,
     "ingredients": [
