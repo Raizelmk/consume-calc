@@ -20,5 +20,10 @@
   "Swiftthistle": "inv_misc_herb_04",
   "Thorium Ore": "inv_ore_thorium_02",
   "Basilisk Brain": "inv_misc_organ_03",
-  "Vulture Gizzard": "inv_misc_organ_05"
+  "Vulture Gizzard": "inv_misc_organ_05",
+  "Fadeleaf": "inv_misc_herb_12",
+  "Solid Stone": "inv_stone_10",
+  "Grave Moss": "inv_misc_dust_02",
+  "Mithril Bar": "inv_ingot_06",
+  "Leaded Vial": "inv_drink_06"
 }
