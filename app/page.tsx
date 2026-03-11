@@ -1,12 +1,14 @@
 "use client";
 
 import { useState, useMemo } from 'react';
-import recipes from '@/data/items.json';
+import recipes from '@/data/recipes.json';
 import prices from '@/data/prices.json';
 import { calculateTotals } from '@/lib/calcLogic';
 import Currency from '@/components/Currency';
 import icons from '@/data/icons.json';
 import { useLocalStorage } from '@/lib/useLocalStorage';
+import useSWR from 'swr';
+import staticPrices from '@/data/prices.json';
 
 const getIconUrl = (itemName: string) => {
   // 1. Check if we have the exact item mapped in icons.json
@@ -25,6 +27,7 @@ const getIconUrl = (itemName: string) => {
   // 3. Ultimate Fallback (Default Herb icon)
   return "https://wow.zamimg.com/images/wow/icons/large/inv_misc_herb_11.jpg";
 };
+const fetcher = (url: string) => fetch(url).then(res => res.json());
 
 export default function CraftingDashboard() {
   const [goals, setGoals] = useLocalStorage('crafting-goals', [
@@ -41,11 +44,18 @@ export default function CraftingDashboard() {
   const [dropdownValue, setDropdownValue] = useState('');
 
   // --- LOGIC ---
+  // Fetch new data structure 8 hours
+  const {data: apiData, error } = useSWR('/api/Prices', fetcher, {refreshInterval: 28800000,}); // 8 hours in milliseconds
+  // Extract prices and timestamp from API response
+  const hasLivePrices = apiData?.prices && Object.keys(apiData.prices).length > 0;
+  const currentPrices = hasLivePrices ? apiData.prices : staticPrices; // Fallback
+  const lastUpdated = apiData?.lastUpdated;
+
   // Only calculate materials for goals that are NOT checked off
   const { rawMaterials, intermediates } = useMemo(() => {
     const activeGoals = goals.filter(g => !g.completed);
-    return calculateTotals(activeGoals, recipes, prices) as { rawMaterials: Record<string, any>; intermediates: any[] };
-  }, [goals]);
+    return calculateTotals(activeGoals, recipes, currentPrices) as { rawMaterials: Record<string, any>; intermediates: any[] };
+  }, [goals, currentPrices]);
 
   // Calculate grand total, ignoring checked-off materials
   const grandTotal = useMemo(() => {
@@ -108,6 +118,11 @@ return (
         <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-linear-to-r from-yellow-400 to-amber-600">
           Consume Calc v5
         </h1>
+        <span className="text-xs text-slate-500 font-mono mt-1">
+          {lastUpdated 
+            ? `Prices updated: ${new Date(lastUpdated).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}` 
+            : 'Loading live prices...'}
+        </span>
       </header>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
