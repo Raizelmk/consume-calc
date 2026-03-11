@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from 'react';
-import recipes from '@/data/recipes.json';
+import recipes from '@/data/items.json';
 import prices from '@/data/prices.json';
 import { calculateTotals } from '@/lib/calcLogic';
 import Currency from '@/components/Currency';
@@ -35,8 +35,8 @@ export default function CraftingDashboard() {
   const [ownedMaterials, setOwnedMaterials] = useState<Record<string, boolean>>({});
 
   // Sort order for shopping list
-  const [sortOrder, setSortOrder] = useState<'quantity' | 'price' | 'name'>('quantity');
-
+  const [sortOrder, setSortOrder] = useLocalStorage<'quantity' | 'price' | 'name'>('sort-order', 'quantity');
+  
   // Dropdown value for adding items
   const [dropdownValue, setDropdownValue] = useState('');
 
@@ -181,7 +181,7 @@ return (
             </div>
           </div>
 
-          {/* GRAND TOTAL BOX (MOVED UP) */}
+          {/* GRAND TOTAL BOX */}
           <div className="mb-6 flex justify-between items-center bg-[#0f172a] border border-slate-700 h-13 px-4 rounded-xl shadow-inner overflow-hidden">
             <span className="text-xs text-slate-500 uppercase font-bold tracking-widest">Grand Total</span>
             <div className="scale-110">

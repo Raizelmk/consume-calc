@@ -1,722 +1,441 @@
 [
   {
     "name": "Flask of Distilled Wisdom",
+    "itemID": 13511,
     "yield": 1,
+    "icon": "inv_potion_120",
     "ingredients": [
-      {
-        "name": "Sungrass",
-        "amount": 30.0
-      },
-      {
-        "name": "Icecap",
-        "amount": 10.0
-      },
-      {
-        "name": "Black Lotus",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Sungrass", "amount": 30},
+      {"name": "Icecap", "amount": 10},
+      {"name": "Black Lotus", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Flask of Petrification",
+    "itemID": 13506,
     "yield": 1,
+    "icon": "inv_Potion_26",
     "ingredients": [
-      {
-        "name": "Stonescale Oil",
-        "amount": 30.0
-      },
-      {
-        "name": "Mountain Silversage",
-        "amount": 10.0
-      },
-      {
-        "name": "Black Lotus",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Stonescale Oil", "amount": 30},
+      {"name": "Mountain Silversage", "amount": 10},
+      {"name": "Black Lotus", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Flask of Supreme Power",
+    "itemID": 13512,
     "yield": 1,
+    "icon": "inv_potion_41",
     "ingredients": [
-      {
-        "name": "Dreamfoil",
-        "amount": 30.0
-      },
-      {
-        "name": "Mountain Silversage",
-        "amount": 10.0
-      },
-      {
-        "name": "Black Lotus",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Dreamfoil", "amount": 30},
+      {"name": "Mountain Silversage", "amount": 10},
+      {"name": "Black Lotus", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Flask of the Titans",
+    "itemID": 13510,
     "yield": 1,
+    "icon": "inv_potion_62",
     "ingredients": [
-      {
-        "name": "Golden Sansam",
-        "amount": 30.0
-      },
-      {
-        "name": "Stonescale Oil",
-        "amount": 10.0
-      },
-      {
-        "name": "Black Lotus",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Golden Sansam", "amount": 30},
+      {"name": "Stonescale Oil", "amount": 10},
+      {"name": "Black Lotus", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Stonescale Oil",
+    "itemID": 13423,
     "yield": 1,
+    "icon": "inv_Potion_68",
     "ingredients": [
-      {
-        "name": "Stonescale Eel",
-        "amount": 1
-      },
-      {
-        "name": "Leaded Vial",
-        "amount": 1
-      }
+      {"name": "Stonescale Eel", "amount": 1},
+      {"name": "Leaded Vial", "amount": 1}
     ]
   },
   {
     "name": "Major Mana Potion",
+    "itemID": 13444,
     "yield": 1,
+    "icon": "inv_Potion_76",
     "ingredients": [
-      {
-        "name": "Dreamfoil",
-        "amount": 2.0
-      },
-      {
-        "name": "Icecap",
-        "amount": 2.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Dreamfoil", "amount": 2},
+      {"name": "Icecap", "amount": 2},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Greater Arcane Protection Potion",
+    "itemID": 13461,
     "yield": 1,
+    "icon": "inv_Potion_83",
     "ingredients": [
-      {
-        "name": "Dreamfoil",
-        "amount": 1.0
-      },
-      {
-        "name": "Dream Dust",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Dreamfoil", "amount": 1},
+      {"name": "Dream Dust", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Greater Fire Protection Potion",
+    "itemID": 13494,
     "yield": 1,
+    "icon": "inv_Potion_24",
     "ingredients": [
-      {
-        "name": "Firebloom",
-        "amount": 1.0
-      },
-      {
-        "name": "Elemental Fire",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Firebloom", "amount": 1},
+      {"name": "Elemental Fire", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Greater Frost Protection Potion",
+    "itemID": 13456,
     "yield": 1,
+    "icon": "inv_Potion_20",
     "ingredients": [
-      {
-        "name": "Icecap",
-        "amount": 1.0
-      },
-      {
-        "name": "Elemental Water",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Icecap", "amount": 1},
+      {"name": "Elemental Water", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Greater Holy Protection Potion",
+    "itemID": 13460,
     "yield": 1,
+    "icon": "inv_Potion_09",
     "ingredients": [
-      {
-        "name": "Golden Sansam",
-        "amount": 1.0
-      },
-      {
-        "name": "Elemental Air",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Golden Sansam", "amount": 1},
+      {"name": "Elemental Air", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Greater Nature Protection Potion",
+    "itemID": 13458,
     "yield": 1,
+    "icon": "inv_Potion_22",
     "ingredients": [
-      {
-        "name": "Dreamfoil",
-        "amount": 1.0
-      },
-      {
-        "name": "Elemental Earth",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Dreamfoil", "amount": 1},
+      {"name": "Elemental Earth", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Greater Shadow Protection Potion",
+    "itemID": 13459,
     "yield": 1,
+    "icon": "inv_Potion_23",
     "ingredients": [
-      {
-        "name": "Arthas' Tears",
-        "amount": 2.0
-      },
-      {
-        "name": "Shadow Oil",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Arthas' Tears", "amount": 2},
+      {"name": "Shadow Oil", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Shadow Oil",
+    "itemID": 3824,
     "yield": 1,
+    "icon": "inv_Potion_23",
     "ingredients": [
-      {
-        "name": "Fadeleaf",
-        "amount": 4.0
-      },
-      {
-        "name": "Grave Moss",
-        "amount": 2.0
-      },
-      {
-        "name": "Leaded Vial",
-        "amount": 1.0
-      }
+      {"name": "Fadeleaf", "amount": 4},
+      {"name": "Grave Moss", "amount": 2},
+      {"name": "Leaded Vial", "amount": 1}
     ]
   },
   {
     "name": "Frost Oil",
+    "itemID": "3829",
     "yield": 1,
+    "icon": "inv_Potion_20",
     "ingredients": [
-      {
-        "name": "Khadgar's Whisker",
-        "amount": 4.0
-      },
-      {
-        "name": "Wintersbite",
-        "amount": 2.0
-      },
-      {
-        "name": "Leaded Vial",
-        "amount": 1.0
-      }
+      {"name": "Khadgar's Whisker", "amount": 4},
+      {"name": "Wintersbite", "amount": 2},
+      {"name": "Leaded Vial", "amount": 1}
     ]
   },
   {
     "name": "Major Troll's Blood Potion",
+    "itemID": 20004,
     "yield": 1,
+    "icon": "inv_Potion_80",
     "ingredients": [
-      {
-        "name": "Gromsblood",
-        "amount": 1.0
-      },
-      {
-        "name": "Plaguebloom",
-        "amount": 2.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Gromsblood", "amount": 1},
+      {"name": "Plaguebloom", "amount": 2},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Greater Arcane Elixir",
+    "itemID": 13454,
     "yield": 1,
+    "icon": "inv_Potion_25",
     "ingredients": [
-      {
-        "name": "Dreamfoil",
-        "amount": 3.0
-      },
-      {
-        "name": "Mountain Silversage",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Dreamfoil", "amount": 3},
+      {"name": "Mountain Silversage", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Living Action Potion",
+    "itemID": 20008,
     "yield": 1,
+    "icon": "inv_Potion_07",
     "ingredients": [
-      {
-        "name": "Icecap",
-        "amount": 2.0
-      },
-      {
-        "name": "Mountain Silversage",
-        "amount": 2.0
-      },
-      {
-        "name": "Heart of the Wild",
-        "amount": 2.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Icecap", "amount": 2},
+      {"name": "Mountain Silversage", "amount": 2},
+      {"name": "Heart of the Wild", "amount": 2},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Purification Potion",
+    "itemID": 13462,
     "yield": 1,
     "ingredients": [
-      {
-        "name": "Icecap",
-        "amount": 2.0
-      },
-      {
-        "name": "Plaguebloom",
-        "amount": 2.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Icecap", "amount": 2},
+      {"name": "Plaguebloom", "amount": 2},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Dreamshard Elixir",
+    "itemID": 61224,
     "yield": 1,
+    "icon": "inv_Potion_12",
     "ingredients": [
-      {
-        "name": "Dream Dust",
-        "amount": 1.0
-      },
-      {
-        "name": "Small Dream Shard",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Dream Dust", "amount": 1},
+      {"name": "Small Dream Shard", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Elixir of the Mongoose",
+    "itemID": 13452,
     "yield": 1,
+    "icon": "inv_Potion_32",
     "ingredients": [
-      {
-        "name": "Mountain Silversage",
-        "amount": 2.0
-      },
-      {
-        "name": "Plaguebloom",
-        "amount": 2.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Mountain Silversage", "amount": 2},
+      {"name": "Plaguebloom", "amount": 2},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Greater Stoneshield Potion",
+    "itemID": 13455,
     "yield": 1,
+    "icon": "inv_Potion_69",
     "ingredients": [
-      {
-        "name": "Stonescale Oil",
-        "amount": 3.0
-      },
-      {
-        "name": "Thorium ore",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Stonescale Oil", "amount": 3},
+      {"name": "Thorium ore", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Lucidity Potion",
+    "itemID": 61225,
     "yield": 1,
+    "icon": "inv_Potion_36",
     "ingredients": [
-      {
-        "name": "Murloc Eye",
-        "amount": 1.0
-      },
-      {
-        "name": "Dreamfoil",
-        "amount": 1.0
-      },
-      {
-        "name": "Purple Lotus",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Murloc Eye", "amount": 1},
+      {"name": "Dreamfoil", "amount": 1},
+      {"name": "Purple Lotus", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Major Healing Potion",
+    "itemID": 13446,
     "yield": 1,
+    "icon": "inv_Potion_54",
     "ingredients": [
-      {
-        "name": "Golden Sansam",
-        "amount": 2.0
-      },
-      {
-        "name": "Mountain Silversage",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Golden Sansam", "amount": 2},
+      {"name": "Mountain Silversage", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Mageblood Potion",
+    "itemID": 20007,
     "yield": 1,
+    "icon": "inv_Potion_45",
     "ingredients": [
-      {
-        "name": "Dreamfoil",
-        "amount": 1.0
-      },
-      {
-        "name": "Plaguebloom",
-        "amount": 2.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Dreamfoil", "amount": 1},
+      {"name": "Plaguebloom", "amount": 2},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Elixir of Superior Defense",
+    "itemID": 13445,
     "yield": 1,
+    "icon": "inv_Potion_66",
     "ingredients": [
-      {
-        "name": "Stonescale Oil",
-        "amount": 2.0
-      },
-      {
-        "name": "Sungrass",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Stonescale Oil", "amount": 2},
+      {"name": "Sungrass", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Mighty Rage Potion",
+    "itemID": 13442,
     "yield": 1,
+    "icon": "inv_Potion_41",
     "ingredients": [
-      {
-        "name": "Gromsblood",
-        "amount": 3.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Gromsblood", "amount": 3},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Elixir of Greater Firepower",
+    "itemID": 21546,
     "yield": 1,
+    "icon": "inv_Potion_60",
     "ingredients": [
-      {
-        "name": "Fire Oil",
-        "amount": 3.0
-      },
-      {
-        "name": "Firebloom",
-        "amount": 3.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Fire Oil", "amount": 3},
+      {"name": "Firebloom", "amount": 3},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Fire Oil",
+    "itemID": 6371,
     "yield": 1,
+    "icon": "inv_Potion_38",
     "ingredients": [
-      {
-        "name": "Firefin Snapper",
-        "amount": 2.0
-      },
-      {
-        "name": "Empty Vial",
-        "amount": 1.0
-      }
+      {"name": "Firefin Snapper", "amount": 2},
+      {"name": "Empty Vial", "amount": 1}
     ]
   },
   {
     "name": "Elixir of Shadow Power",
+    "itemID": 9264,
     "yield": 1,
+    "icon": "inv_Potion_46",
     "ingredients": [
-      {
-        "name": "Ghost Mushroom",
-        "amount": 3.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Ghost Mushroom", "amount": 3},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Limited Invulnerability",
+    "itemID": 3387,
     "yield": 1,
+    "icon": "inv_Potion_62",
     "ingredients": [
-      {
-        "name": "Blindweed",
-        "amount": 2.0
-      },
-      {
-        "name": "Ghost Mushroom",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Blindweed", "amount": 2},
+      {"name": "Ghost Mushroom", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Elixir of Poison Resistance",
+    "itemID": 3386,
     "yield": 1,
+    "icon": "inv_Potion_12",
     "ingredients": [
-      {
-        "name": "Large Venom Sac",
-        "amount": 1.0
-      },
-      {
-        "name": "Bruiseweed",
-        "amount": 1.0
-      },
-      {
-        "name": "Leaded Vial",
-        "amount": 1.0
-      }
+      {"name": "Large Venom Sac", "amount": 1},
+      {"name": "Bruiseweed", "amount": 1},
+      {"name": "Leaded Vial", "amount": 1}
     ]
   },
   {
     "name": "Elixir of Giants",
+    "itemID": 9206,
     "yield": 1,
+    "icon": "inv_Potion_61",
     "ingredients": [
-      {
-        "name": "Sungrass",
-        "amount": 1.0
-      },
-      {
-        "name": "Gromsblood",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Sungrass", "amount": 1},
+      {"name": "Gromsblood", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Elixir of Greater Agility",
+    "itemID": 9187,
     "yield": 1,
+    "icon": "inv_Potion_94",
     "ingredients": [
-      {
-        "name": "Sungrass",
-        "amount": 1.0
-      },
-      {
-        "name": "Goldthorn",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Sungrass", "amount": 1},
+      {"name": "Goldthorn", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Gift of Arthas",
+    "itemID": 9088,
     "yield": 1,
+    "icon": "inv_Potion_28",
     "ingredients": [
-      {
-        "name": "Arthas' Tears",
-        "amount": 1.0
-      },
-      {
-        "name": "Blindweed",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Arthas' Tears", "amount": 1},
+      {"name": "Blindweed", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Invisibility Potion",
+    "itemID": 9172,
     "yield": 1,
+    "icon": "inv_Potion_25",
     "ingredients": [
-      {
-        "name": "Ghost Mushroom",
-        "amount": 1.0
-      },
-      {
-        "name": "Sungrass",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Ghost Mushroom", "amount": 1},
+      {"name": "Sungrass", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Lesser Invisibility Potion",
+    "itemID": 3823,
     "yield": 1,
+    "icon": "inv_Potion_18",
     "ingredients": [
-      {
-        "name": "Fadeleaf",
-        "amount": 1.0
-      },
-      {
-        "name": "Wild Steelbloom",
-        "amount": 1.0
-      },
-      {
-        "name": "Leaded Vial",
-        "amount": 1.0
-      }
+      {"name": "Fadeleaf", "amount": 1},
+      {"name": "Wild Steelbloom", "amount": 1},
+      {"name": "Leaded Vial", "amount": 1}
     ]
   },
   {
     "name": "Magic Resistance Potion",
+    "itemID": 9036,
     "yield": 1,
+    "icon": "inv_Potion_16",
     "ingredients": [
-      {
-        "name": "Khadgar's Whisker",
-        "amount": 1.0
-      },
-      {
-        "name": "Purple Lotus",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Khadgar's Whisker", "amount": 1},
+      {"name": "Purple Lotus", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Restorative Potion",
+    "itemID": 9030,
     "yield": 1,
+    "icon": "inv_Potion_01",
     "ingredients": [
-      {
-        "name": "Elemental Earth",
-        "amount": 1.0
-      },
-      {
-        "name": "Goldthorn",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Elemental Earth", "amount": 1},
+      {"name": "Goldthorn","amount": 1},
+      {"name": "Crystal Vial","amount": 1}
     ]
   },
   {
     "name": "Oil of Immolation",
+    "itemID": 8956,
     "yield": 1,
+    "icon": "inv_Potion_11",
     "ingredients": [
-      {
-        "name": "Firebloom",
-        "amount": 1.0
-      },
-      {
-        "name": "Goldthorn",
-        "amount": 1.0
-      },
-      {
-        "name": "Crystal Vial",
-        "amount": 1.0
-      }
+      {"name": "Firebloom", "amount": 1},
+      {"name": "Goldthorn", "amount": 1},
+      {"name": "Crystal Vial", "amount": 1}
     ]
   },
   {
     "name": "Nature Protection Potion",
+    "itemID": 6052,
     "yield": 1,
+    "icon": "inv_Potion_06",
     "ingredients": [
-      {
-        "name": "Liferoot",
-        "amount": 1.0
-      },
+      {"name": "Liferoot", "amount": 1},
       {
         "name": "Stranglekelp",
         "amount": 1.0
@@ -1285,11 +1004,11 @@
   },
   {
     "name": "Nordanaar Herbal Tea",
-    "yield": 1,
+    "yield": 5,
     "ingredients": [
       {
         "name": "Small Dream Shard",
-        "amount": 0.2
+        "amount": 1
       }
     ]
   },
